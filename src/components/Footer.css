@@ -1,0 +1,65 @@
+.footer{
+    display: flex;
+    background-color: rgb(57, 86, 112);
+    color: azure;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contact{
+    flex: 0.65;
+}
+.desc{
+    flex: 0.45;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.desc > p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.name{
+    margin-top: 10px ;
+    margin-bottom: 10px ;
+    margin-right: 10px;
+}
+
+.email{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.msg{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.name > input{
+    width: 15rem;
+    height: 2rem;
+}
+.email > input{
+    width: 15rem;
+    height: 2rem;
+}
+.msg > input{
+    width: 32rem;
+    height: 6rem;
+}
+.cred{
+    display: flex;
+}
+.button{
+    justify-content: center;
+    width: 32.6rem;
+    height: 2.5em;
+    padding-bottom: 20px;
+}
+.buttons{
+    padding-bottom: 20px;
+}
