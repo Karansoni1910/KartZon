@@ -1,0 +1,10 @@
+.product_details{
+    justify-content: center;
+    align-items: center;
+    display: flex;    
+}
+
+.recommendations{
+    display: flex;
+    justify-content: space-between;
+}
